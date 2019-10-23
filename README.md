@@ -24,14 +24,14 @@ sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-bin
 
 ## Steps To Run 
   * ### 0-Cloning
-    + first of all clone the project : 
+    + First of all clone the project : 
 
  ```
  git clone https://github.com/bahar99/Helloworld_bootloader
   ```
 
   * ### 1-Getting Our Code Ready : 
-    + turn our code into some binary by running the GNU assembler and use the GNU's linker :
+    + Turn our code into some binary by running the GNU assembler and use the GNU's linker :
   
  ```
  as -o boot.o bootloader.s
