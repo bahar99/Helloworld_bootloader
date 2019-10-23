@@ -24,13 +24,13 @@ sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-bin
 
 ## Steps To Run 
   * ### 0-Cloning
-    + First of All Clone the Project : 
+    + first of all clone the project : 
 
  ```
  git clone https://github.com/bahar99/Helloworld_bootloader
   ```
 
-  * ### 1-Getting our code ready : 
+  * ### 1-Getting Our Code Ready : 
     + turn our code into some binary by running the GNU assembler and use the GNU's linker :
   
  ```
@@ -46,7 +46,7 @@ The linker is normally used to combine the various libraries and the binary exec
 
  The BIOS will load our code at address 0x7c00, so we will make that our starting address by specifying -Ttext 0x7c00 when we call the linker
 
-  * ### 2-use QEMU :
+  * ### 2-Use QEMU :
   
    ```
 qemu-system-x86_64 boot.bin
