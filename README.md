@@ -15,7 +15,7 @@ For This Project You Need below Requirements :
 
 GNU assembler, AKA **as**, is installed by default on Ubuntu.
  
-You could theoretically write this binary into the first 512 byte on a USB drive, a floppy disk or whatever else your computer is happy booting from,but it may harm your computer.So it's recommended to use simple x86 emulator or a virtual machine.
+You can write this binary into the first 512 byte on a USB drive, a floppy disk or whatever else your computer is happy booting from,but it may harm your computer.So it's recommended to use simple x86 emulator or a virtual machine.
 
 Install QEMU in Ubuntu :
 ```
